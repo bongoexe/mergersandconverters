@@ -3,8 +3,8 @@ import xlsxwriter
 
 # Replace 'file.tsv' with the path to your .tsv file
 # Replace 'file.xlsx' with the desired name for the Excel file
-tsv_file = '/Users/leo/Documents/patents database/g_assignee_not_disambiguated.tsv'
-excel_file = '/Users/leo/Documents/patents database/fileisambiguo.xlsx'
+tsv_file = ''
+excel_file = ''
 
 # Create a new Excel file and add a worksheet
 workbook = xlsxwriter.Workbook(excel_file)
