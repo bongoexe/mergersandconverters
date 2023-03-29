@@ -1,14 +1,14 @@
 import pandas as pd
 
 # Read the first file
-df1 = pd.read_excel("/home/leo/Desktop/noclasspharma/databases/ALL COMPANIES LISTED DATABASE.xlsx")
+df1 = pd.read_excel("")
 
 # Read the second file
-df2 = pd.read_excel("/home/leo/Desktop/noclasspharma/databases/4Q2022-EXCEL.xlsx")
+df2 = pd.read_excel("")
 
 # Select the columns to compare
-column1 = "Description"  # replace with the actual column name in file1
-column2 = "HOLDER"  # replace with the actual column name in file2
+column1 = ""  # replace with the actual column name in file1
+column2 = ""  # replace with the actual column name in file2
 
 # Convert all the words in the columns to lowercase and remove any leading/trailing spaces
 df1[column1] = df1[column1].str.lower().str.strip()
