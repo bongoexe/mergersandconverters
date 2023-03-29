@@ -4,7 +4,7 @@ import pandas as pd
 import codecs
 
 # Set the directory where the CSV files are located
-directory_path = '/home/leo/Desktop/noclasspharma/databases'
+directory_path = ''
 
 # Set the file extension of the CSV files
 file_extension = '.csv'
